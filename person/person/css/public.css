@@ -1,0 +1,14 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,li,input{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	font-family:Arial,"微软雅黑","黑体";
+	font-size:14px;
+}
+a{
+	color:#333;
+	text-decoration:none;
+}
+img{
+	border:0;
+}

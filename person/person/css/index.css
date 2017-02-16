@@ -1,0 +1,163 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+html,body{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+	.imgbox{
+		height:100%;
+		width:100%;
+		overflow: hidden;
+		position: relative;
+	}
+    .imgbox li{
+    	width:100%;
+    	height:100%;
+      position: absolute;
+			top:100%;
+			left:0;
+			overflow: hidden;
+    } 
+    .imgbox li  img{
+    	position: absolute;
+    	top:0;
+    	width:100%;
+    }
+     .imgbox .first{
+     	top:0;
+     }
+     .btn{
+     	width:20px;
+     	height:120px;
+     	position: absolute;
+     	right:15px;
+     	top:230px;
+     }
+      .btn li{
+      	width:20px;
+      	height:20px;
+      	margin-top: 10px;
+        border-radius: 50%;
+        background: #ccc;
+
+      }
+      .btn .fir{
+        background: #e5004f;
+      }
+      .person{
+      	position:absolute;
+      	top:200px;
+      	left:250px;
+      	z-index:1000;
+      }
+       .person  p{
+      	color:#323223;
+      	font-size: 70px;
+      	font-family: alako-bold;
+      }
+      .persons{
+      	width:400px;
+      	height:500px;
+      	position:absolute;
+      	top:100px;
+      	left:70px;
+      	z-index:1000;
+      	}
+      	.persons  p{
+      	color:#323223;
+      	font-size: 14px;
+      	font-family: alako-bold;
+      	line-height: 30px;
+      }
+      .zhezhao{
+      	width:100%;
+      	position: absolute;
+      	top:0;
+      	background:rgba(0,0,0,0.5);}
+      	.personss{
+      		 width:600px;
+      		 height:300px;
+      		z-index: 1000;
+      		 position:absolute;
+      		 top:50px;
+      		
+      			left:300px;
+      		}
+      		.personss-img{
+      			width:200px;
+      			height:252px;
+      			z-index:1000;
+      			float: left;
+      			overflow: hidden;
+      			margin-left:80px;
+      			 background: #fff;
+      			border-radius: 5px;
+      			padding:10px;
+      			margin-bottom:30px;
+      		}
+      		.personss-img2{
+      			position:absolute;
+      			top:200px;
+      			z-index:1000;
+      		}
+      		.personss-img3{
+      			position:absolute;
+      			top:300px;
+      			z-index:1000;
+      		}
+      		.menu{
+      			font-size:16px;
+      			font-weight:bold;}
+      			.contact{
+      				width:400px;
+      				height:400px;
+      				position:absolute;
+      				top:100px;
+      				left:416px;
+      				background: pink;
+      				padding:50px;
+      				border-radius: 10px;
+      			}
+      			.contact p{
+      				width:100%;
+      				margin-bottom:10px;
+      				height:30px;
+      				border:1px solid lightgoldenrodyellow;
+      				border-radius: 5px;
+      				line-height: 30px;
+      				color:#323223;
+      				padding-left:5px;
+      			}
+      			.message{
+      				width:100%;
+      				border:1px solid lightgoldenrodyellow;
+      				height:100px;
+      				margin-bottom:10px;
+      			}
+      			.contact input{
+      				background: none;
+      				height:20px;
+      			}
+* {
+  box-sizing: border-box;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+body {
+  background: #fff;
+  font-family: 16px/1.8 "Microsoft Yahei",verdana;
+  font-size: 14px;
+  font-weight: normal;
+  color: #888888;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
